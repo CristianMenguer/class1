@@ -41,7 +41,7 @@ btMul.onclick = () => {
 btDiv.onclick = () => {
     const val1 = getVal('input1')
     const val2 = getVal('input2')
-    const  result = val1 / val2
+    const  result = val1 / val2 ? val1 / val2 : 'Invalid Operation'
     //
     finalResult.innerHTML = `<p>${result}</p>`
 }
