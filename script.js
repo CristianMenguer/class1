@@ -45,3 +45,7 @@ btDiv.onclick = () => {
     //
     finalResult.innerHTML = `<p>${result}</p>`
 }
+
+document.body.onload = () => {
+    finalResult.innerHTML = '<p>0</p>'
+}
